@@ -4,7 +4,7 @@ html, body{
   margin:0 auto;}
 a{
   text-decoration:none;
-  color:blue;
+  color:rgb(221, 16, 16);
 }
 
 /* Challenge 7: Create a class rule, container that set the display property to flex */
@@ -21,13 +21,12 @@ nav a{
   transition:0.5s
 }
 nav a:hover{
-    background-color:blue;
+    background-color:rgb(221, 16, 16);
     color:white;
     transition:0.5s;
 }
-#banner{
-  background-color:blue;
-  color:white;
+.banner{
+  background-color:rgb(221, 16, 16)
   padding:20px;
 }
 #body{
@@ -37,7 +36,7 @@ nav a:hover{
   padding:50px;
 }
 #footer{
-  background-color:blue;
+  background-color:rgb(221, 16, 16);
   color:white;
   padding:20px;
 }
